@@ -8,4 +8,6 @@ before_install:
 script:
   - docker run wscho/docker-react npm run test -- --coverage
 
-  
+depoly:
+  provider: elasticbeanstalk
+  region: 
